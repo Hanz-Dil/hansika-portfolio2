@@ -19,7 +19,7 @@ function Contact() {
                 </p>
 
                 <a
-                    href="mailto:your-email@example.com"
+                    href="mailto:hansika.d.edirisinghe@gmail.com"
                     className="contact-button"
                 >
                     Say Hello ↗
