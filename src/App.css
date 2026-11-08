@@ -970,24 +970,21 @@
 }
 
 
-/* GLOWING BUTTON EFFECT */
-
-.primary-btn,
-.contact-button {
-    position: relative;
-    overflow: hidden;
+.hero-image-container {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
 }
 
-.primary-btn:hover,
-.contact-button:hover {
-    transform: translateY(-5px) scale(1.03);
-    box-shadow:
-        0 0 15px rgba(169, 112, 255, 0.5),
-        0 0 35px rgba(169, 112, 255, 0.2);
+.hero-image-glow {
+    border-radius: 50%;
+    filter: drop-shadow(0 0 12px rgba(140, 80, 255, 0.4));
 }
 
-.secondary-btn:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 0 20px rgba(169, 112, 255, 0.15);
+.hero-image {
+    width: 220px;
+    height:220px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid rgba(180, 140, 255, 0.5);
 }
-
