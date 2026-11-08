@@ -4,7 +4,7 @@ function ProjectCard({number,
     description,
     technologies,
     link}){
-    return(
+        return(
        <div className="project-card" >
 
                         <div className="project-top">
