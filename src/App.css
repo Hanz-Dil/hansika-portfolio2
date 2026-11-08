@@ -825,3 +825,126 @@
         transition-duration: 0.01ms !important;
     }
 }
+
+/* JOURNEY PAGE */
+
+.journey {
+    min-height: 100vh;
+    padding: 100px 10%;
+    background: #080808;
+    color: white;
+}
+
+.journey-heading {
+    max-width: 750px;
+    margin: 0 auto 100px;
+    text-align: center;
+}
+
+.journey-label {
+    color: #a78bfa;
+    font-size: 13px;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+.journey-heading h1 {
+    font-size: clamp(42px, 6vw, 70px);
+    margin: 20px 0;
+}
+
+.journey-heading h1 span {
+    background: linear-gradient(90deg, #a78bfa, #6366f1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.journey-heading > p:last-child {
+    color: #aaa;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.journey-timeline {
+    max-width: 850px;
+    margin: 0 auto 70px;
+    position: relative;
+}
+
+.journey-timeline::before {
+    content: "";
+    position: absolute;
+    left: 27px;
+    top: 20px;
+    bottom: 20px;
+    width: 2px;
+    background: linear-gradient(#a78bfa, #6366f1, transparent);
+}
+
+.journey-item {
+    display: flex;
+    gap: 30px;
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.journey-number {
+    min-width: 56px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #171323;
+    border: 1px solid #8b5cf6;
+    color: #c4b5fd;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.journey-content {
+    flex: 1;
+    padding: 28px;
+    background: #111;
+    border: 1px solid #29232f;
+    border-radius: 16px;
+    transition: 0.3s ease;
+}
+
+.journey-content:hover {
+    transform: translateY(-5px);
+    border-color: #8b5cf6;
+}
+
+.journey-content > span {
+    color: #a78bfa;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.journey-content h2 {
+    font-size: 23px;
+    margin: 12px 0;
+}
+
+.journey-content p {
+    color: #aaa;
+    line-height: 1.7;
+    margin: 0;
+}
+
+.journey-home {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 13px 25px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #8b5cf6;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+
+.journey-home:hover {
+    background: #8b5cf6;
+}
