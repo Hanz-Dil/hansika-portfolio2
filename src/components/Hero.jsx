@@ -83,6 +83,13 @@ function Hero() {
 
 
                 <div className="hero-buttons">
+                    <a
+                         href="/My_CV.pdf"
+                         download
+                             className="secondary-btn"
+                            >
+                     Download CV ↓
+                    </a>
                     <a href="#projects" className="primary-btn">
                         Explore My Work ↗
                     </a>
