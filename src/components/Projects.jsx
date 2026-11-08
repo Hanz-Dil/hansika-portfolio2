@@ -1,4 +1,6 @@
 
+import ProjectCard from "./ProjectCard";
+
 function Projects() {
     const projects = [
         {
@@ -45,34 +47,16 @@ function Projects() {
             <div className="project-grid">
 
                 {projects.map((project) => (
-                    <div className="project-card" key={project.number}>
-
-                        <div className="project-top">
-                            <span>{project.number}</span>
-                            <span className="project-arrow">↗</span>
-                        </div>
-
-                        <p className="project-category">
-                            {project.category}
-                        </p>
-
-                        <h3>{project.title}</h3>
-
-                        <p className="project-description">
-                            {project.description}
-                        </p>
-
-                        <div className="project-tags">
-                            {project.technologies.map((tech) => (
-                                <span key={tech}>{tech}</span>
-                            ))}
-                        </div>
-
-                        <a href={project.link} className="project-link">
-                            Explore Project ↗
-                        </a>
-
-                    </div>
+                    <ProjectCard
+                        key={project.number} //as react create multiple projectcards
+                        number={project.number}
+                        title={project.title}
+                        category={project.category}
+                        description={project.description}
+                        technologies={project.technologies}
+                        link={project.link}
+                        />
+                    
                 ))}
 
             </div>
