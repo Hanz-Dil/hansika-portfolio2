@@ -1,6 +1,8 @@
 
 import { useEffect, useState } from "react";
 
+import myPhoto from "../assets/profPic.png";
+
 function Hero() {
     const words = [
         "digital experiences.",
@@ -66,6 +68,19 @@ function Hero() {
                     technology, creativity, and building meaningful
                     digital experiences.
                 </p>
+
+                    <div className="hero-image-container">
+                        <div className="hero-image-glow">
+                            <div className="hero-image-border">
+                            <img
+                                 src={myPhoto}
+                              alt="Hanzika"
+                                className="hero-image"
+                                />
+                            </div>
+                     </div>
+                    </div>
+
 
                 <div className="hero-buttons">
                     <a href="#projects" className="primary-btn">
