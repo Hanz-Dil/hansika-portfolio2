@@ -37,4 +37,4 @@ function ProjectCard({number,
 );
     }
 
-    export default ProjectCard;
+  export default ProjectCard;
