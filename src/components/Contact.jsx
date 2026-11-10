@@ -30,7 +30,7 @@ function Contact() {
                         GitHub ↗
                     </a>
 
-                    <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+                    <a href="https://www.linkedin.com/in/hansika-edirisinghe-7a72ba2aa" target="_blank" rel="noreferrer">
                         LinkedIn ↗
                     </a>
                 </div>
