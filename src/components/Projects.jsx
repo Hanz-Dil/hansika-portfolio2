@@ -10,26 +10,18 @@ function Projects() {
             description:
                 "A personal portfolio website built to showcase my skills, journey and projects using React and CSS.",
             technologies: ["React", "JavaScript", "CSS"],
-            link: "#"
+            link: "https://github.com/Hanz-Dil/hansika-portfolio2"
         },
         {
             number: "02",
-            title: "Creative Project",
-            category: "COMING SOON",
+            title: "EventDNA",
+            category: "COLLABORATIVE PROJECT",
             description:
-                "A new project currently in my learning journey. More details and features coming soon.",
-            technologies: ["HTML", "CSS", "JavaScript"],
-            link: "#"
-        },
-        {
-            number: "03",
-            title: "Future Innovation",
-            category: "EXPLORING IDEAS",
-            description:
-                "An upcoming project where I'll experiment with new technologies and creative ideas.",
-            technologies: ["React", "UI Design"],
-            link: "#"
+                "A web-based event management platform developed collaboratively to support event discovery and management. Contributed to community groups, group membership and user management features.",
+            technologies: ["HTML", "CSS", "JavaScript","PHP","MySQL"],
+            link: "https://github.com/Hanz-Dil/EventDNA"
         }
+      
     ];
 
     return (
